@@ -1,8 +1,4 @@
 <?php
-// Load environment variables (optional, if using Dotenv library)
-// require_once __DIR__ . '/vendor/autoload.php';
-// Dotenv\Dotenv::createImmutable(__DIR__)->load();
-
 // Set your secret API key (or pull from ENV for better security)
 $validApiKey = $_ENV['OBR_CREDENTIALS_API_KEY'] ?? '4f7c2c6d8e3f1a9b5e67102cd3a4b6f1';
 
