@@ -258,7 +258,11 @@ $columnMappings = [
   // Other
   'orderNum'         => 'order_number',
   'num_first_directors' => 'number_of_partners', // for general partnerships
-]
+],
+    'c_profile' => [
+          'Cname' => 'company_name',
+          'orderNum' => 'order_number' // optional — used for labeling the transaction in the basket
+    ]
 ];
 
 function applyColumnMapping(array $row, string $type, array $mappings): array {
